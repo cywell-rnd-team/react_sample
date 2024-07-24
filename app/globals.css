@@ -17,13 +17,27 @@
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
+  /* color: rgb(var(--foreground-rgb));
   background: linear-gradient(
       to bottom,
       transparent,
       rgb(var(--background-end-rgb))
     )
-    rgb(var(--background-start-rgb));
+    rgb(var(--background-start-rgb)); */
+}
+
+.header-1 {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #ccc;
+}
+.header-1-content-1 {
+  padding: 0 10px;
+}
+.header-1-content-3 {
+  padding: 0 10px;
+  display: flex;
+  align-items: center;
 }
 
 @layer utilities {
